@@ -1,4 +1,4 @@
-# Kobi on Business Analysis - static blog
+# Business Analysis - The BA blog
 
 Files:
 - index.html (home page with post list)
