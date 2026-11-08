@@ -1,4 +1,4 @@
-# Business Analysis - The BA blog
+# Business Analysis Blog - static blog
 
 Files:
 - index.html (home page with post list)

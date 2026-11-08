@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Power Query basics for Excel analysts | Business Analysis Blog</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap"><p class="site-title"><a href="/Business-Analysis-Blog/">Business Analysis Blog</a></p><p class="site-tag">Requirements, analysis and reporting from 12 years in the field</p><nav class="site"><a href="/Business-Analysis-Blog/">Home</a><a href="/Business-Analysis-Blog/about.html">About</a></nav></div></header>
+<main class="wrap">
+<h1>Power Query basics for Excel analysts</h1>
+<p class="meta">Excel · Data preparation</p>
+<p class="intro">Power Query lets you clean and combine data without copying and pasting. Once a query is set up, refreshing it takes seconds.</p>
+<h2>Load data from a source, not a copy</h2>
+<p>Use Data → Get Data to connect to the original file or database. Working from a copy means your report will silently drift from the source.</p>
+<h2>Keep every step visible</h2>
+<p>Each transformation appears in the Applied Steps pane. Rename steps with plain words such as "Remove test orders," so anyone can follow the logic later.</p>
+<h2>Fix types early</h2>
+<p>Set date and number types at the start. Text dates are the most common cause of wrong totals and failed refreshes.</p>
+<h2>Test a refresh before you hand over</h2>
+<p>Add a row to the source, refresh, and check that the new row appears in the output. If it does not, the query is reading a fixed range instead of the full table.</p>
+</main>
+<footer class="site"><div class="wrap">Written by Kobi. Practical notes on business analysis, ERP projects and retail analytics.</div></footer>
+</body>
+</html>
