@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to write a BRD for an ERP rollout | Kobi on Business Analysis</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap"><p class="site-title"><a href="/">Kobi on Business Analysis</a></p><p class="site-tag">Requirements, analysis and reporting from 12 years in the field</p><nav class="site"><a href="/">Home</a><a href="/about.html">About</a></nav></div></header>
+<main class="wrap">
+<h1>How to write a BRD for an ERP rollout</h1>
+<p class="meta">Business analysis · Requirements</p>
+<p class="intro">An ERP business requirements document (BRD) is the agreement everyone signs before anyone configures a system. A good one is short enough to read and specific enough to test against.</p>
+
+<h2>1. Start with the business problem, not the system</h2>
+<p>Write two or three paragraphs on what the business does today, what hurts, and what success looks like in numbers. For example: "Month-end close takes 9 working days; target is 4." If the goal cannot be measured, the BRD will drift.</p>
+
+<h2>2. Define scope in one table</h2>
+<table>
+<tr><th>In scope</th><th>Out of scope</th><th>Owner</th></tr>
+<tr><td>Purchase-to-pay for 3 factories</td><td>Retail POS integration</td><td>Finance lead</td></tr>
+<tr><td>Vendor master data migration</td><td>Historic data before 2022</td><td>IT lead</td></tr>
+</table>
+<p>Keep the out-of-scope column honest. Most change requests start there.</p>
+
+<h2>3. Write requirements as testable statements</h2>
+<p>Use the form "The system shall..." with one behaviour per line and a unique ID. "The system shall allow a buyer to approve purchase orders up to USD 10,000 without a second approval" can be tested. "The system should be user-friendly" cannot.</p>
+
+<h2>4. Capture current process and future process</h2>
+<p>Map both, and note every change in who does what. Roles that vanish in the future state are where resistance and missed tasks usually come from.</p>
+
+<h2>5. List assumptions, dependencies and open questions</h2>
+<p>Each open question needs an owner and a due date. A BRD with ten open questions and owners is more useful than one that pretends everything is settled.</p>
+
+<h2>6. Agree sign-off criteria before you start</h2>
+<p>Write the acceptance tests now, in plain language, and attach them to the requirements they check. This is the cheapest point to agree what "done" means.</p>
+
+<p>A practical structure: purpose, scope, current state, future state, requirements with IDs, reports, data, controls, assumptions, open questions, sign-off.</p>
+</main>
+<footer class="site"><div class="wrap">Written by Kobi. Practical notes on business analysis, ERP projects and retail analytics.</div></footer>
+</body>
+</html>

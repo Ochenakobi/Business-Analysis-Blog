@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A checklist for building Excel dashboards people use | Kobi on Business Analysis</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap"><p class="site-title"><a href="/">Kobi on Business Analysis</a></p><p class="site-tag">Requirements, analysis and reporting from 12 years in the field</p><nav class="site"><a href="/">Home</a><a href="/about.html">About</a></nav></div></header>
+<main class="wrap">
+<h1>A checklist for building Excel dashboards people use</h1>
+<p class="meta">Excel · Reporting</p>
+<p class="intro">Most dashboards fail because nobody agreed on the questions they answer. Settle those first, then build.</p>
+
+<h2>Before you open Excel</h2>
+<ul>
+<li>Write the three decisions this dashboard supports, and who makes them.</li>
+<li>List the metrics, with one definition each. "Sales" is not a definition.</li>
+<li>Confirm the source system, refresh frequency and who owns the data.</li>
+</ul>
+
+<h2>While you build</h2>
+<ul>
+<li>Keep raw data on its own sheet, untouched. Load it with Power Query where possible.</li>
+<li>Use one calculation sheet with named ranges, so formulas read in plain words.</li>
+<li>Put filters in one place at the top, and label units on every chart.</li>
+<li>Avoid merged cells in any range a formula or pivot needs.</li>
+</ul>
+
+<h2>Before handover</h2>
+<ul>
+<li>Reconcile three totals against the source system by hand.</li>
+<li>Test with a blank filter, a filter that returns no rows, and the largest period in the data.</li>
+<li>Write a one-page guide: what each sheet is for, how to refresh, and who to ask.</li>
+</ul>
+
+<h2>After handover</h2>
+<p>Ask the first users to explain the dashboard back to you. Where they get it wrong, the design is wrong, not the users. Fix the labels before adding features.</p>
+</main>
+<footer class="site"><div class="wrap">Written by Kobi. Practical notes on business analysis, ERP projects and retail analytics.</div></footer>
+</body>
+</html>
